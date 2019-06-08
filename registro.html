@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/all.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link href="assets/css/cubeportfolio.min.css" rel="stylesheet" />
+        <link id="t-colors" href="skins/default.css" rel="stylesheet" />
+        <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
+        <title>El Shaday Community - Registro</title>
+</head>
+<body>
+
+        <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                  <li class="menu-active"><a href="../community/index.html">Página Inicial</a></li>
+                  <li><a href="../community/index.html#team">Responsáveis pelo Projeto</a></li>
+                  <li><a href="../community/index.html#call-to-action">Ajuda</a></li>
+				  <li><a href="../community/index.html#contact">Links Úteis</a></li>
+				  <li><a href="upload_imagem.php">Enviar Fotos</a></li>
+              </nav>
+              <header>
+                    <h1>El Shadday Community</h1>
+                    <h2>Um Site para você!</h2>
+                </header>
+
+    <!-- inserir o texto aqui -->
+    <section id="content">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+						<form role="form" class="register-form">
+							<h2>Por favor, faça seu cadastro. <small>Logo após, iremos liberar seu acesso pelo site.</small></h2>
+							<hr class="colorgraph">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="Nome" tabindex="1">
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Sobrenome" tabindex="2">
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Nome de Usúario" tabindex="3">
+							</div>
+							<div class="form-group">
+								<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Válido" tabindex="4">
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Senha" tabindex="5">
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Digite a Senha Novamente" tabindex="6">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-4 col-sm-3 col-md-3">
+									<span class="button-checkbox">
+						<button type="button" class="btn" data-color="info" tabindex="7">Eu Aceito</button>
+                        <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
+					</span>
+								</div>
+								<div class="col-xs-8 col-sm-9 col-md-9">
+									Ao Clicar em <strong class="label label-primary">Registrar</strong>, você estara aceitando os <a href="#" data-toggle="modal" data-target="#t_and_c_m">Termos e Condições</a> impostas pelo site, incluindo o uso de Cookie.
+								</div>
+							</div>
+
+							<hr class="colorgraph">
+							<div class="row">
+								<div class="col-xs-12 col-md-6"><input type="submit" value="Registrar" class="btn btn-theme btn-block btn-lg" tabindex="7"></div>
+								<div class="col-xs-12 col-md-6">Ja possui uma conta? <a href="login.html">Faça Login</a></div>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+				<div class="modal fade" id="t_and_c_m" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+								<h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
+							</div>
+							<div class="modal-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-dismiss="modal">I Agree</button>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+		</section>
+
+
+    <!-- inserir o texto aqui -->
+    <section id="contact">
+            <div class="container wow fadeInUp">
+              <div class="section-header">
+                <h3 id="ctt1" class="section-title">Contato</h3>
+                <p id="ctt2" class="section-description">Está com dúvidas? Gostou do nosso projeto e quer contratar os nossos serviços ? Entre em contato com a IADM</p>
+              </div>
+            </div>
+            <div class="container wow fadeInUp mt-5">
+<div class="row justify-content-center">
+
+<div class="col-lg-3 col-md-4">
+
+<div class="info">
+<div>
+<i class="fa fa-map-marker"></i>
+<p>Avenida 07 de Setembro<br>Centro, Dianópolis-TO</p>
+</div>
+
+<div>
+<i class="fa fa-envelope"></i>
+<p>iadd@gmail.com</p>
+</div>
+
+<div>
+<i class="fa fa-phone"></i>
+<p>+55 63 99256 6155</p>
+</div>
+</div>
+
+<div class="social-links">
+<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+</div>
+
+</div>
+
+<div class="col-lg-5 col-md-8">
+<div class="form">
+<div id="sendmessage">Sua Mensagem foi recebida. Obrigado!</div>
+<div id="errormessage"></div>
+<form action="" method="post" role="form" class="contactForm">
+<div class="form-group">
+<input type="text" name="name" class="form-control" id="name" placeholder="Digite seu Nome" data-rule="minlen:4" data-msg="Por favor, adicione no minímo 4 caracteres" />
+<div class="validation"></div>
+</div>
+<div class="form-group">
+<input type="email" class="form-control" name="email" id="email" placeholder="Digite seu Email" data-rule="email" data-msg="Por favor, indique um email válido" />
+<div class="validation"></div>
+</div>
+<div class="form-group">
+<input type="text" class="form-control" name="subject" id="subject" placeholder="Título" data-rule="minlen:4" data-msg="Minímo de 8 caracteres" />
+<div class="validation"></div>
+</div>
+<div class="form-group">
+<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+<div class="validation"></div>
+</div>
+<div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+</form>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+<div>
+<p>O Site Feito para você!</p>
+<p>Copyright 2019™</p>
+</div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/stellar.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/uisearch.js"></script>
+<script src="js/jquery.cubeportfolio.min.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
